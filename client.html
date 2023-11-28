@@ -17,7 +17,7 @@
 
     <script>
         function fetchData() {
-            fetch('http://192.168.1.5:5000/get_sensor_data')
+            fetch('http://172.105.66.220:5000/get_sensor_data')
                 .then(response => response.json())
                 .then(data => {
                     document.getElementById('sensorData').innerHTML = `
